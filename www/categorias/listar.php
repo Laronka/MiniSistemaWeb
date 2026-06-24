@@ -200,7 +200,6 @@
 		<table>
 			<thead>
 				<tr>
-					<th>#</th>
 					<th>Categoria</th>
 					<th>Ações</th>
 				</tr>
@@ -211,7 +210,6 @@
 					while ($row = mysqli_fetch_array($resultado)) {
 						$id = $row["id"];
 						echo ("<tr>");
-						echo ("<td>" . $row["id"] . "</td>");
 						echo ("<td>" . $row["categoria"] . "</td>");
 						echo ("
 							<td>
